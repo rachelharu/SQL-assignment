@@ -4,7 +4,7 @@ bootcamp assignment to introduce students to SQL
 
 #what I learned
 
-create a table and insert data:
+#create a table and insert data:
 CREATE TABLE products (
  id INT NOT NULL,
  name STRING,
@@ -16,12 +16,11 @@ INSERT INTO products (id, name)
 VALUES(2, "Pencil")
 
 
-
-how to select pieces of data based on certain criteria: 
+#how to select pieces of data based on certain criteria: 
 SELECT name, price * FROM 'products'; 
 WHERE id=1 
 
-how to update values: 
+#how to update values: 
 UPDATE products
 SET price = 0.80
 WHERE id=2
@@ -36,7 +35,6 @@ SET stock = 12
 WHERE id = 2
 
 
-
-how to delete: 
+#how to delete: 
 DELETE FROM products 
 Where id = 2 
